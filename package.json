@@ -3,6 +3,7 @@
   "displayName": "netflix",
   "description": "Netflix is a lightweight Visual Studio Code extension that displays a vibrant badge in the status bar, showing the name of your current workspace folder. With this quick visual cue, you'll always know exactly which project you're working on—no more confusion or accidental edits in the wrong folder!",
   "version": "0.0.1",
+  "publisher": "allan-carlos",
   "engines": {
     "vscode": "^1.96.0"
   },
@@ -11,14 +12,6 @@
   ],
   "activationEvents": [],
   "main": "./dist/extension.js",
-  "contributes": {
-    "commands": [
-      {
-        "command": "netflix.helloWorld",
-        "title": "Hello World"
-      }
-    ]
-  },
   "scripts": {
     "vscode:prepublish": "pnpm run package",
     "compile": "pnpm run check-types && pnpm run lint && node esbuild.js",
