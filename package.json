@@ -27,6 +27,7 @@
     "check-types": "tsc --noEmit",
     "lint": "eslint src",
     "test": "vscode-test",
+    "publish": "vsce publish",
     "package:vsix": "vsce package"
   },
   "devDependencies": {
